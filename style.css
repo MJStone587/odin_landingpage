@@ -1,0 +1,78 @@
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color: #1F2937;
+    color: white;
+}
+.header h1 {
+    padding-right: 20rem;
+    padding-left: 20rem;
+}
+.header a {
+    align-self: center;
+    padding-right: 5rem;
+}
+.section1 {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #1F2937;
+}
+.section1_box1 {
+    /* top right bottom left */
+  margin:  5rem 0rem 10rem 20rem;
+}
+.section1_box1 h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+.section1_box1 p {
+    font-size: 18px;
+    color: white;
+    padding-right: 20px;
+}
+.section1_box2{
+    background-color: gray;
+    margin: 5rem 20rem 10rem 0rem;
+}
+.section2 {
+    display:flex;
+    flex-flow:column nowrap;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.section2 p {
+    font-size: 10px;
+}
+.section2_boxes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.infoBox {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 200px;
+}
+.section2 img {
+    max-width: 120px;
+    max-height: 120px;
+    border: 1px solid blue;
+    border-radius:8px;  
+    flex:1;
+}
+.section3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 10rem 20rem 10rem 20rem;
+}
+.section3 h3 {
+   align-self: flex-end;
+   
+}
