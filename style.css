@@ -22,6 +22,7 @@
 .section1_box1 {
     /* top right bottom left */
   margin:  5rem 0rem 10rem 20rem;
+  flex: 1;
 }
 .section1_box1 h1 {
     font-size: 48px;
@@ -33,9 +34,18 @@
     color: white;
     padding-right: 20px;
 }
+.section1_box1 button { 
+    background-color: blue;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
 .section1_box2{
     background-color: gray;
     margin: 5rem 20rem 10rem 0rem;
+    flex: 1;
 }
 .section2 {
     display:flex;
@@ -56,23 +66,25 @@
 .infoBox {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    text-align: center;
     max-width: 200px;
 }
 .section2 img {
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 140px;
+    max-height: 140px;
     border: 1px solid blue;
     border-radius:8px;  
     flex:1;
 }
 .section3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     background-color: #E5E7EB;
     font-size: 36px;
     padding: 10rem 20rem 10rem 20rem;
 }
 .section3 h3 {
-   align-self: flex-end;
-   
+    font-size: .8em;
 }
